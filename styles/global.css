@@ -107,7 +107,7 @@ header .widgets {
   align-items: center;
   justify-content: space-between;
 
-  gap: 1.8rem;
+  gap: 3.2rem;
 }
 
 header div:nth-child(2) img,
@@ -127,7 +127,7 @@ header nav ul li a {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 12rem;
 
   padding-inline: 14rem;
@@ -137,8 +137,6 @@ main {
 }
 
 main div.images-container {
-  margin-block: 2rem;
-
   margin: auto 0;
 }
 
