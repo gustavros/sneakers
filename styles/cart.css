@@ -4,7 +4,7 @@ header div:nth-child(2) .cart-container.active {
   align-items: center;
 
   position: absolute;
-  top: 8rem;
+  top: 10rem;
   right: 8rem;
 
   z-index: 100;

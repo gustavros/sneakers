@@ -1,17 +1,23 @@
+// ! selectors
+
 const cart = document.querySelector(".cart");
 const cartContent = document.querySelector(".cart-container");
-
 const decrementButton = document.querySelector(".decrement");
 const incrementButton = document.querySelector(".increment");
 const addToCartButton = document.querySelector(".add-to-cart");
-
 let quantity = document.querySelector(".quantity").textContent;
 
+// ! Events Listeners
+
 addToCartButton.addEventListener("click", addToCart);
+incrementButton.addEventListener("click", increment);
+decrementButton.addEventListener("click", decrement);
 
 cart.addEventListener("click", () => {
   cartContent.classList.toggle("active");
 });
+
+// ! Functions
 
 function increment() {
   quantity++;
@@ -24,9 +30,6 @@ function decrement() {
     document.querySelector(".quantity").textContent = quantity;
   }
 }
-
-incrementButton.addEventListener("click", increment);
-decrementButton.addEventListener("click", decrement);
 
 function addToCart() {
   let priceShoes = 125;
