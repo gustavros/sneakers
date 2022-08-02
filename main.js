@@ -87,3 +87,13 @@ function addToCart() {
     cartContent.appendChild(cartItem);
   }
 }
+
+ScrollReveal().reveal(
+  "main, .main-container-content, .main-container-content h2",
+  {
+    duration: 1000,
+    origin: "bottom",
+    distance: "100px",
+    easing: "ease-in-out",
+  }
+);
