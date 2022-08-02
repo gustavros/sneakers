@@ -313,7 +313,12 @@ main div.main-container-content .buttons button:hover:nth-child(2) {
   transition: 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 785px) {
   main {
     display: flex;
     flex-direction: column;

@@ -6,7 +6,6 @@ const decrementButton = document.querySelector(".decrement");
 const incrementButton = document.querySelector(".increment");
 const addToCartButton = document.querySelector(".add-to-cart");
 const messageOnEmpty = document.querySelector(".message-on-empty");
-
 let quantity = document.querySelector(".quantity").textContent;
 
 // ! Events Listeners
@@ -83,7 +82,7 @@ function addToCart() {
   hiddenMessage();
   cartContent.classList.add("active");
 
-  if (cartContent.children.length < 4) {
+  if (cartContent.children.length < 6) {
     cartContent.appendChild(cartItem);
   }
 }
