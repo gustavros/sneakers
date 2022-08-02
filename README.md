@@ -1,4 +1,4 @@
-# Sneakers 🧾
+# Sneakers 👟
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/gustavros/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/gustavros/README-template?style=for-the-badge)
