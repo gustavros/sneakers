@@ -11,11 +11,11 @@
 
 ![Mobile](https://user-images.githubusercontent.com/92998471/182452213-f0d13316-561d-41ab-90d8-2dcb41ac1fe4.png)
 
-> Projeto desenvolvido por mim, o projeto foi criado com o próposito de trabalhar mais o JavaScript e melhorar a lógica por trás dos websites, aprendi mais sobre functions, createElement, lógica.
+> Projeto desenvolvido por mim, o projeto foi criado com o propósito de trabalhar mais o JavaScript e melhorar a lógica por trás dos websites, aprendi mais sobre functions, createElement, lógica.
 
-### 🎨 Prótotipo
+### 🎨 Protótipo
 
-> O prótotipo do site foi criado pelo [**Front-End Mentor**](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-ruvZNN9wfc). [Clique aqui](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-ruvZNN9wfc) para acessar ao desafio.
+> O protótipo do site foi criado pelo [**Front-End Mentor**](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-ruvZNN9wfc). [Clique aqui](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-ruvZNN9wfc) para acessar ao desafio.
 
 ### ⚙ Ajustes e melhorias
 
