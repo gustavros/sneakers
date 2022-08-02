@@ -13,6 +13,10 @@
 
 > Projeto desenvolvido por mim, o projeto foi criado com o próposito de trabalhar mais o JavaScript e melhorar a lógica por trás dos websites, aprendi mais sobre functions, createElement, lógica.
 
+### 🎨 Prótotipo
+
+> O prótotipo do site foi criado pelo [**Front-End Mentor**](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-ruvZNN9wfc). [Clique aqui](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6/hub/ecommerce-product-page-ruvZNN9wfc) para acessar ao desafio.
+
 ### ⚙ Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
