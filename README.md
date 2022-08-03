@@ -24,8 +24,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Adicionar, remover
 - [x] Responsivo
 - [x] Scroll Reveal
-- [x] Abrir o carrinho, fechar o carrinho com o click fora do carrinho
-- [ ] Slider
+- [x] Abrir o carrinho, fechar o carrinho com o clique fora do carrinho
+- [x] ~~Slider~~ Mudar imagem principal com o clique nas imagens de miniatura
 - [ ] Dark Mode Switch
 
 ## 💻 Techs usadas
