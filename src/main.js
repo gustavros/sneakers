@@ -7,8 +7,8 @@ const cartContent = document.querySelector(".cart-container");
 const decrementButton = document.querySelector(".decrement");
 const incrementButton = document.querySelector(".increment");
 const addToCartButton = document.querySelector(".add-to-cart");
+const switchModeButton = document.querySelector("#switch-button");
 const messageOnEmpty = document.querySelector(".message-on-empty");
-
 const priorityImage = document.querySelector(".first");
 const imagesOnThumbnail = document.querySelectorAll(
   ".images-container-slide img"
@@ -30,6 +30,7 @@ document.addEventListener("mouseup", function (e) {
   }
 });
 
+switchMode();
 // ! Functions
 
 function increment() {
@@ -103,14 +104,21 @@ function addToCart() {
   }
 }
 
+function switchMode() {
+  switchModeButton.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+  });
+}
+
 ScrollReveal().reveal(
   "main, .main-container-content, .main-container-content h2",
   {
-    duration: 1000,
+    duration: 500,
     origin: "bottom",
     distance: "100px",
     easing: "ease-in-out",
   }
 );
 
-changeImageOnClick(); // chama a função para mudar a imagem principal ao clicar nas imagens do thumbnail
+changeImageOnClick();
+switchMode();

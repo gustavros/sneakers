@@ -1,0 +1,77 @@
+/* DARK MODE  */
+
+body.dark-mode {
+  background-color: #121212;
+
+  color: #ffffff;
+
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body.dark-mode .logo path {
+  fill: var(--white);
+}
+
+body.dark-mode main div.main-container-content h1 {
+  color: #ccc;
+}
+
+body.dark-mode main div.main-container-content p {
+  color: #b4b4b4;
+}
+
+body.dark-mode main div.main-container-content .prices span:nth-child(2) {
+  background-color: #232323;
+  color: #fff;
+}
+
+body.dark-mode main div.main-container-content .prices span:nth-child(1) {
+  color: #fff;
+}
+
+body.dark-mode main div.main-container-content .buttons .buttons-count,
+body.dark-mode main div.main-container-content .buttons .buttons-count {
+  background-color: #232323;
+}
+
+body.dark-mode
+  main
+  div.main-container-content
+  .buttons
+  .buttons-count
+  button:nth-child(1),
+body.dark-mode
+  main
+  div.main-container-content
+  .buttons
+  .buttons-count
+  button:nth-child(3) {
+  background-color: #232323;
+}
+
+body.dark-mode main div.main-container-content .buttons button:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+
+  background-color: #fa9548;
+  color: var(--white);
+
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0.2rem 0.6rem #ffb882;
+}
+
+body.dark-mode header div:nth-child(2) .cart-container.active {
+  background-color: var(--very-dark-blue);
+}
