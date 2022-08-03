@@ -14,18 +14,6 @@ const imagesOnThumbnail = document.querySelectorAll(
   ".images-container-slide img"
 );
 
-function changeImageOnClick() {
-  imagesOnThumbnail.forEach((image) => {
-    // para cada imagem das imagens do thumbnail
-    image.addEventListener("click", () => {
-      // adicionar um evento de click para cada imagem
-      priorityImage.src = image.src; // a imagem do thumbnail será a imagem principal ao clicar
-    });
-  });
-}
-
-changeImageOnClick(); // chama a função para mudar a imagem principal ao clicar nas imagens do thumbnail
-
 // ! Events Listeners
 
 addToCartButton.addEventListener("click", addToCart);
@@ -62,6 +50,16 @@ function hiddenMessage() {
   cartItemLength >= 2
     ? messageOnEmpty.classList.add("hidden")
     : messageOnEmpty.classList.remove("hidden");
+}
+
+function changeImageOnClick() {
+  imagesOnThumbnail.forEach((image) => {
+    // para cada imagem das imagens do thumbnail
+    image.addEventListener("click", () => {
+      // adicionar um evento de click para cada imagem
+      priorityImage.src = image.src; // a imagem do thumbnail será a imagem principal ao clicar
+    });
+  });
 }
 
 function addToCart() {
@@ -114,3 +112,5 @@ ScrollReveal().reveal(
     easing: "ease-in-out",
   }
 );
+
+changeImageOnClick(); // chama a função para mudar a imagem principal ao clicar nas imagens do thumbnail
