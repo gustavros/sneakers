@@ -1,12 +1,30 @@
 // ! selectors
 
+let quantity = document.querySelector(".quantity").textContent;
+
 const cart = document.querySelector(".cart");
 const cartContent = document.querySelector(".cart-container");
 const decrementButton = document.querySelector(".decrement");
 const incrementButton = document.querySelector(".increment");
 const addToCartButton = document.querySelector(".add-to-cart");
 const messageOnEmpty = document.querySelector(".message-on-empty");
-let quantity = document.querySelector(".quantity").textContent;
+
+const priorityImage = document.querySelector(".first");
+const imagesOnThumbnail = document.querySelectorAll(
+  ".images-container-slide img"
+);
+
+function changeImageOnClick() {
+  imagesOnThumbnail.forEach((image) => {
+    // para cada imagem das imagens do thumbnail
+    image.addEventListener("click", () => {
+      // adicionar um evento de click para cada imagem
+      priorityImage.src = image.src; // a imagem do thumbnail será a imagem principal ao clicar
+    });
+  });
+}
+
+changeImageOnClick(); // chama a função para mudar a imagem principal ao clicar nas imagens do thumbnail
 
 // ! Events Listeners
 

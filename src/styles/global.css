@@ -140,7 +140,7 @@ main div.images-container {
   margin: auto 0;
 }
 
-main div.images-container > img {
+main div.images-container > .first {
   border-radius: 1.6rem;
   box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.2);
 
