@@ -104,9 +104,25 @@ function addToCart() {
 }
 
 function switchMode() {
+  if (JSON.parse(localStorage.getItem("dark-theme")) === true) {
+    document.body.classList.add("dark-mode");
+  }
+
   switchModeButton.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
+
+    ADD_THEME_ON_LOCALSTORAGE();
   });
+}
+
+function ADD_THEME_ON_LOCALSTORAGE() {
+  const theme = JSON.parse(localStorage.getItem("dark-theme"));
+
+  if (theme === true) {
+    JSON.stringify(localStorage.setItem("dark-theme", false));
+  } else {
+    JSON.stringify(localStorage.setItem("dark-theme", true));
+  }
 }
 
 ScrollReveal().reveal(
