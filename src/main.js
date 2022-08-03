@@ -30,7 +30,6 @@ document.addEventListener("mouseup", function (e) {
   }
 });
 
-switchMode();
 // ! Functions
 
 function increment() {

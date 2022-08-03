@@ -116,6 +116,8 @@ header #switch-button {
   bottom: 2rem;
   right: 2rem;
 
+  font-size: 2rem;
+
   z-index: 1000;
 
   border: none;
@@ -333,6 +335,24 @@ main div.main-container-content .buttons button:hover:nth-child(2) {
 }
 
 @media (max-width: 785px) {
+  header #switch-button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+
+    z-index: 1000;
+
+    background: rgba(255, 255, 255, 0.555);
+    border: 1px solid var(--very-dark-blue);
+    border-radius: 0.8rem;
+
+    padding: 0.3rem 0.8rem;
+
+    cursor: pointer;
+
+    font-size: 3rem;
+  }
+
   main {
     display: flex;
     flex-direction: column;
